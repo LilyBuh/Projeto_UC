@@ -1,0 +1,61 @@
+     body {
+         background-color: rgba(219, 150, 59, 0.76);
+         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+     }
+
+     .btn1 {
+         background-color: rgb(199, 119, 66);
+         color: rgb(4, 7, 4);
+         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+         font-size: small;
+         border-radius: 15px;
+         
+     }
+
+     .btn2 {
+         background-color: rgb(199, 119, 66);
+         color: rgb(4, 7, 4);
+         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+         font-size: medium;
+        border-radius: 10px;
+        margin-top: 30px;
+     }
+
+     .btn3 {
+         background-color: rgb(199, 119, 66);
+         color: rgb(4, 7, 4);
+         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+         font-size: medium;
+        border-radius: 10px;   
+        }
+
+     button {
+         margin-top: 10px;
+     }
+
+     .nome{
+        margin-top: 11.5px;
+        color: rgb(4, 7, 4);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        
+    }
+     
+     .agencia{
+        color: rgb(4, 7, 4);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     }
+
+     .banco {
+        width: 2%;
+        margin-top: 120px;
+     }
+     .banco:hover{
+        cursor: pointer;
+        opacity: 0.83;
+
+    }
+
+     .titulo{
+        margin-top: -90px;
+    }

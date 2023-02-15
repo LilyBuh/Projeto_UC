@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Banco T.I</title>
+</head>
+
+<body>
+  
+<h1 class="titulo">Banco T.I 
+  <img src="https://logodownload.org/wp-content/uploads/2014/05/itau-logo-1.png" class="banco" onclick="itau()">
+</h1> 
+
+  Nome: <input type="text" id="loginDigita">
+  Agência: <input type="text" id="AgenciaDigital"> <button onclick="confirmar()" class="btn1">Enviar</button> 
+
+  <div id="Nome" class="nome"></div>
+  <div id="Agencia" class="agencia"></div>
+
+  <div>
+    <button onclick="emprestimo()" class="btn2">Empréstimo</button>
+    <p>Valor do Empréstimo: <span id="valorempresti"></span></p>
+    <p>Juros: <span id="porcentagem"></span></p>
+    <p>Total a pagar: <span id="totalpagar"></span></p>
+  </div>
+
+
+  <div>
+    <button onclick="financiamento()" class="btn3">Financiamento</button>
+    <p>Valor do Financiamento: <span id="valorfinan"></span></p>
+    <p>Juros: <span id="juros"></span></p>
+    <p>Total a pagar: <span id="totalpagar2"></span></p>
+  </div>
+
+
+  <script src="back.js"></script>
+  <link rel=" stylesheet" href="Site.css">
+
+
+</body>
+</html>
